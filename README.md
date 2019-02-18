@@ -37,7 +37,7 @@ When proposing a topic, try to ask yourself the following questions:
 
 Team of 3 – 5 people is encouraged (the maximum size of a group is 5). Teams of size 1 – 2 are strongly discouraged. Teamwork not only allows you to learn from each other, but also enables you to accomplish more through the project work than you could have with just yourself (e.g. finishing a more sophisticated system). However, working in a team also require significant communications and coordination with team members; for this reason, the size of a team should generally be no more than five members. Generally speaking, all the team members of a group will get the same grade provided all have contributed _substantially_ to the project. In case there is evidence that a team member has only made superficial contribution to a project (we really hope this won&#39;t happen!), the particular team member&#39;s grade may be discounted. The documentation of the project (to be submitted at the end of the semester) must state clearly who did what.
 
-3. ** Write a proposal  (10%, due March 6)**
+**3. Write a proposal  (10%, due March 6)**
 
 Each project team is required to write a one-page proposal before you actually go in depth on a topic and submit your proposal on Compass2G. One submission per group, with your netIDs as the title. **The proposal is due on Wednesday 03/06**.
 
@@ -53,19 +53,19 @@ In the proposal, you should address the following questions and include the name
 
 Please make sure that there is clearly a use case of your proposed tool. At the proposal stage, the two most important criteria to keep in mind are **novelty** and **potential impact** ; an ideal project proposal should contain a clearly novel idea which would lead to a clearly useful tool for at least one real user (if the project is successful).
 
-4. ** Work on the project**
+**4. Work on the project**
 
 You should try to reuse any existing tools as much as possible so as to minimize the amount of work without sacrificing your goal. Discuss any problems or issues with your teammates or classmates on Piazza and leverage Piazza to collaborate with each other. Consistent with our course policy, we strongly encourage you to help each other in all the course work so as to maximize your gain of new knowledge and skills while minimizing your work as much as possible. We will do our best to help you as well.  Consider documenting your work regularly. This way, you will already have a lot of things written down by the end of the semester.
 
-5. ** Progress report (video presentation)  (5%, due April 8)**
+**5. Progress report (video presentation)  (5%, due April 8)**
 
 By **04/08** , each project team will be asked to submit a video presentation (5-10 minutes) to introduce the current progress of projects. Content to be covered in the progress report 1) what has been done, 2) what remains to be done, and 3) any barrier(s) in achieving the proposed project goal. Progress report would be graded based on completion. It is especially important that you report any problems or difficulties that you have encountered so that the instructor and TAs can help you solve the problem or otherwise adjust your project goal in a timely manner. Video presentation will be uploaded on media space [https://mediaspace.illinois.edu/channel/CS+410+Spring+2019/](https://mediaspace.illinois.edu/channel/CS+410+Spring+2019/) under the playlist tag **&quot;progress-report&quot;**.
 
-6. ** Software code with documentation or research report (65%, due May 8)**
+**6. Software code with documentation or research report (65%, due May 8)**
 
 At the end of the semester, each team must submit the software code produced for the project to their fork of the Project GitLab repository (only one member of each team needs to submit this), along with a written documentation (submitted to Compass2g). The documentation should consist of the following elements: 1) An overview of the function of the code (i.e., what it does and what it can be used for). 2) Documentation of how the software is implemented with sufficient detail so that others can have a basic understanding of your code for future extension or any further improvement. 3) Documentation of the usage of the software including either documentation of usages of APIs or detailed instructions on how to install and run a software, whichever is applicable.  4) Brief description of contribution of each team member in case of a multi-person team.  Note that **if you are in a team, it is your responsibility to figure out how to contribute to your group project, so you will need to act proactively and in a timely manner if your group coordinator has not assigned a task to you.** There will be no opportunity to make up for any task that you failed to accomplish. **In general, all the members of a team will get the same grade for the project unless the documentation submission indicates that some member(s) only superficially participated in the project without doing much actual work; in that case, we will discount the grade.** Everyone is expected to spend at least 20 hours to seriously work on your course project as a minimum, not including the time spent for preparing the documentation. The 65% of the grade would be distributed as follows: **45% for source code submission (you must have a working user-interface for this part in addition to submitting your source code)**; **20% for documentation submission.**  The 20% for the documentation submission includes 5% for overview of functions, 10% for implementation documentation, 5% for usage documentation. There is no strict length requirement for the documentation.
 
-7. ** Video presentation (20%, due May 8)**
+**7. Video presentation (20%, due May 8)**
 
 At the end of the semester, every project team will be asked to submit a short tutorial presentation (e.g., a voiced ppt presentation) to explain how the developed software is to be used, or, if the project was a research project, an overview of the paper report.  Please upload your presentation to Illinois Media Space. Specifically, go to the Illinois Media Space Channel for the class at https://mediaspace.illinois.edu/channel/CS+410+Spring+2019/
 
