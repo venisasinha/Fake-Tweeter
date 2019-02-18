@@ -17,7 +17,7 @@ Thus your course project work would be graded primarily based on your effort. If
 
 **Tasks Timeline**
 
-1. ** Pick a topic**
+**1. Pick a topic**
 
 Every student will be asked to pick a project topic. You will need to propose your own topic. We encourage those of you who have identified a practical challenge related to your own life, work/job to design a course project to solve the identified challenge. This would maximize the utility of your project since the outcome may be something useful for you or your job. However, please make sure to inform your company and supervisor and obtain an approval since any software code you produced for the course project must be available to the public.
 
@@ -33,7 +33,7 @@ When proposing a topic, try to ask yourself the following questions:
 - How do you plan to show people that the tool to be developed is indeed useful? (You could make a demo of its function and/or report some quantitative evaluation figures.)
 - What is the minimum goal to be achieved during this semester? (Try to drop everything non-essential and only keep the function that is truly novel.)
 
-2. ** Form a team**
+**2. Form a team**
 
 Team of 3 – 5 people is encouraged (the maximum size of a group is 5). Teams of size 1 – 2 are strongly discouraged. Teamwork not only allows you to learn from each other, but also enables you to accomplish more through the project work than you could have with just yourself (e.g. finishing a more sophisticated system). However, working in a team also require significant communications and coordination with team members; for this reason, the size of a team should generally be no more than five members. Generally speaking, all the team members of a group will get the same grade provided all have contributed _substantially_ to the project. In case there is evidence that a team member has only made superficial contribution to a project (we really hope this won&#39;t happen!), the particular team member&#39;s grade may be discounted. The documentation of the project (to be submitted at the end of the semester) must state clearly who did what.
 
