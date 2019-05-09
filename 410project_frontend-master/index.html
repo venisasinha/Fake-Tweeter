@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tweet Faker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
+  <script src="bower_components/jqcloud2/dist/jqcloud.min.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</head>
+<body>
+  <script>
+
+  var countClicks = 0;
+  var input = "";
+  var items = [];
+  var newInput = "";
+  var cloudObj = [{"text": "want", "weight": 8}];
+
+  function getTwitterID() {
+    console.log(countClicks);
+
+      if (countClicks == 0 || input !=  document.getElementById("twitterID").value) {
+      var counter = 0;
+      $(".results").html("")
+      // $('.cloud').jQCloud('destroy');
+        $(document).ready(function(){
+            $.getJSON("http://localhost:5000/" + input, function(result){
+              $.each(result, function(i, tweets){
+                if (counter === 0) {
+                  console.log(tweets);
+                  items = tweets.slice(0);
+                  $(".results").html(tweets[0]);
+                }
+                counter++;
+                if (counter === 2) {
+
+                  Object.assign(cloudObj, tweets);
+                  if (countClicks == 1) {
+                    $('.cloud').jQCloud(cloudObj);
+                  }
+                  else {
+                    $('.cloud').jQCloud('update', cloudObj);
+                  }
+                }
+              });
+            });
+        });
+      }
+
+      else  {
+        $(".results").html(items[countClicks % 15]);
+        $('.cloud').jQCloud(cloudObj);
+      }
+
+    input = document.getElementById("twitterID").value;
+    countClicks++;
+}
+
+</script>
+
+  <div class="header"></div>
+  <div class = "form">
+    <form>
+      <input type="text" id="twitterID" placeholder="Enter a twitter username...">
+      <button type="button" name="submit" onclick="getTwitterID();">Generate a Tweet</button>
+    </form>
+  </div>
+
+      <div class = "results"></div>
+  
+  <center><div class = "cloud"></div></center>
+</body>
+</html>
