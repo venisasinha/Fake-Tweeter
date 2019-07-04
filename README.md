@@ -1,6 +1,7 @@
 # Fake Tweeter
 
 **Introduction**
+
 created a Python tool that can generate believable tweets based on the style and substance of someone’s Twitter history. The user can input a Twitter username, and our app will scrape their tweet history, analyze the content, and generate new tweets that are logically plausible and that resemble the style of the text samples. The app also shows a word cloud which is generated based off of all words mined from the previous tweets, minus the stop words and other irrelevant parts. The primary use of our application is entertainment. We’ve had a lot of fun ourselves reading our fake tweets, such as:
 "Make america great again, despite the kentucky derby decision!" - @realDonaldTrump
 “Lift sanctions on maryland, elections company bought by police omg.” -@cher
